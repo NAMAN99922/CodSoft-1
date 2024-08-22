@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Headland+One&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Headland+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* zoom: 100%; */
+}
+
+
+.sidebar {
+    background-color: rgb(208, 206, 206);
+    width: 434px;
+    font-family: "Fira Sans", sans-serif;
+    height: 100vh; 
+
+
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: pink ; */
+    height: 58vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img {
+    height: 58vh;
+    border-radius: 80px;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Headland One", serif;
+
+}
+
+.hello {
+    font-size: 65px;
+    /* margin-left: 12px; */
+    font-weight: bold;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Fira Sans", sans-serif;
+    /* margin-left: 12px; */
+}
+
+.about {
+    font-size: 23px;
+    padding-top: 23px;
+    /* margin-left: 15px; */
+}
+
+.moreabout {
+    font-size: 22px;
+    font-family: "Fira Sans", sans-serif;
+    margin-top: 23px;
+
+}
+
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(73, 73, 141);
+    font-weight: bold;
+    margin: 0 3px;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: rgb(73, 73, 141);
+    background-color: white;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+ .btn{
+    width: 10vw;
+ }
+
+.contactform {
+    font-family: "Fira Sans", sans-serif;
+    padding: 0 34px;
+    padding-top: 144px;
+
+
+}
+
+.contactform h1 {
+    font-family: "Headland One", serif;
+    text-align: center;
+    padding: 12px 0;
+
+}
+
+.contactform form div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailhelp {
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+    /* position: relative;
+    right: 12vw; */
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+h1{
+    font-family: "Headland One", serif;
+ padding-top: 35px;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    margin: 8px;
+    font-size: 25px;
+}
+
+/* h2{
+    font-family: "Headland One", serif;
+    padding: 30px;
+    margin: 8px;
+} */
+.skillcontainer{
+    padding: 12px;
+}
+.skill{
+    width: 275px;
+    background-color: black;
+    height: 10px ;
+    margin: 10px;
+}
+
+.skill{
+    width: 275px;
+    background-color: black;
+    height: 10px ;
+    margin: 10px;
+}
+
+.skill1{
+    width: 270px;
+    background-color: black;
+    height: 10px ;
+    margin: 10px;
+}
+
+.skill2{
+    width: 125px;
+    background-color: black;
+    height: 10px ;
+    margin: 10px;
+}
+
+.skill3{
+    width: 250px;
+    background-color: black;
+    height: 10px ;
+    margin: 10px;
+}
+
+.skill4{
+    width: 100px;
+    background-color: black;
+    height: 10px ;
+    margin: 10px;
+}
+
+h3{
+    font-family: "Headland One", serif;
+    /* background-color: green; */
+    position: relative ;
+    top: -85px;
+    left: -40px;
+    /* right: 1px;  */
+    font-size: 30px;
+}
+
+.project1{
+    font-family: "Headland One", serif;
+    padding: 15px;
+    /* background-color: blueviolet; */
+    height: 8vh;
+    position: relative;
+    top: -75px;
+    left: -62px;
+
+
+}
+
+/* button{
+    font-family: "Headland One", serif;
+    position: relative ;
+    top: -125px;
+    left: -35px;
+    right: 1px;
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+} */
+ .view{
+    font-family: "Headland One", serif;
+    position: relative ;
+    top: -125px;
+    left: -35px;
+    /* right: 1px; */
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+ }
+ .view1{
+    text-decoration: none;
+ }
+/* .project1 a{
+    font-family: "Headland One", serif;
+    background-color: blue;
+    position: relative ;
+    top: -125px;
+    left: -35px;
+    right: 1px;
+    text-decoration: none;
+} */
+
+.pro{
+    font-family: "Headland One", serif;
+    /* background-color: brown; */
+    margin: 0 10vw 90px 0;
+    position: relative ;
+    top: -90px;
+    left: -55px;
+    /* right: 1px; */
+ 
+}
+
+@media(max-width :1500px) {
+   /* *{
+    background-color: rgb(249, 198, 198) ;
+   }  */
+
+   .sidebar{    
+    
+        transform: translate(-443px , 0);
+        position: absolute ;;
+    
+   }
+}
+.Copyright{
+    font-family: "Roboto", sans-serif;
+    /* margin: 8px; */
+    font-size: 25px;
+    position: relative;
+    top: 90vh;
+    right: 50vw;
+    width: 20vw;
+   
+    
+}
